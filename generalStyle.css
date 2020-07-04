@@ -1,0 +1,98 @@
+body{
+  max-width: 100%;
+  margin: auto;
+  background-image: radial-gradient(#00544c, #041311);
+}
+.title{
+  font-family: 'Spicy Rice', cursive;
+  text-shadow: 2px 2px 4px #00d0bc;
+  font-size: 55px;
+}
+.mainBlock{
+  margin-top: 15vw;
+  margin-left: 24%;
+  width: 50%;
+  padding: 80px 5px 25px 5px;
+  background-color: lightgray;
+  text-align: center;
+  line-height: 1;
+  border-radius: 15%;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin-top: 60px;
+}
+.submit{
+  font-family: 'Acme', sans-serif;
+  font-size: 24px;
+  border-radius: 15px;
+  padding: 2px 15px 4px 15px;
+  border-style: ridge;
+}
+.submit:hover{
+  background-color: #01a595;
+  font-size: 25px;
+}
+label{
+  font-family: 'Acme', sans-serif;
+  font-size: 28px;
+  margin-top: 7px;
+}
+.textField{
+  width: 85%;
+  height: 42px;
+  border-radius: 15px;
+  text-align: center;
+  font-family: cursive;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.registerBlock{
+  background-color: lightgray;
+  text-align: center;
+  line-height: 2;
+  border-radius: 25px;
+  margin-left: 24%;
+  width: 50%;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.errorMessage{
+  margin-top: 1em;
+  font-family: cursive;
+  font-size: 20px;
+  color: red;
+}
+#successMessage{
+  color: green;
+}
+@media only screen and (max-width: 800px){
+  .grid{
+    margin-top: 50px;
+  }
+}
+@media only screen and (max-width: 640px){
+  /* For mobile phones: */
+  .mainBlock{
+    width: 70%;
+    margin-left: 15%;
+  }
+  .registerBlock{
+    width: 70%;
+    margin-left: 15%;
+  }
+  .textField{
+    height: 32px;
+    font-size: 12px;
+  }
+  label, .submit{
+    font-size: 18px;
+  }
+  grid, .title{
+    font-size: 40px;
+  }
+  .errorMessage{
+      font-size: 17px;
+  }
+}

@@ -1,0 +1,116 @@
+.errorMessage{
+  color: red;
+  font-size: 19px;
+  font-family: 'Acme', sans-serif;
+  text-align: center;
+}
+.menu{
+  width:0;
+  max-width: 100%;
+  display: inline-block;
+  background-color: #000000f0;
+  color: white;
+  height: 82.5%;
+  position: fixed;
+  right: 0;
+  z-index: 1;
+  border-radius: 20px;
+  padding-top: 12%;
+  text-align: center;
+  transition: 0.5s;
+}
+.menuContent{
+  visibility: hidden;
+  text-align: center;
+  font-family: 'Acme', sans-serif;
+  font-size: 22px;
+}
+.content{
+  margin-left: 5%;
+}
+.closebtn{
+  position: absolute;
+  top: 10px;
+  left: 0;
+  font-size: 36px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+.closebtn:hover{
+  cursor: pointer;
+  font-size: 42px;
+}
+.profile{
+  font-family: 'Acme', sans-serif;
+  font-size: 24px;
+  color: #01d4c0;
+}
+.profilePicture{
+  width: 50%;
+  height: 220px;
+  border: 2px solid #008679;
+  border-radius: 10px;
+}
+.menuButtons{
+  color: white;
+  background-color: #000000f0;
+  border: 1px solid white;
+  width: 80%;
+  height: 60px;
+  border-radius: 10px;
+  font-family: 'Acme', sans-serif;
+  font-size: 20px;
+  text-align: left;
+}
+.menuButtons:hover{
+  color: black;
+  background-color: #96d0ca;
+}
+.image-upload > input{
+    display: none;
+}
+.image-upload img{
+  width: 80px;
+  cursor: pointer;
+  margin-left: 35%;
+}
+#uploadButton{
+  width: 70%;
+  font-size: 20px;
+  text-align: center;
+}
+#backButton{
+  width: auto;
+  text-align: center;
+  height: 40px;
+}
+#login{
+  visibility: hidden;
+  text-align: center;
+  width: 50%;
+  position: absolute;
+  margin-top: 50%;
+  margin-left: -23%;
+}
+.textField{
+  margin-top: 25%;
+  width: 65%;
+  height: 35px;
+  border-radius: 15px;
+  text-align: center;
+  font-family: 'Acme', sans-serif;
+  font-size: 18px;
+}
+::placeholder{
+  font-family: 'Acme', sans-serif;
+  font-size: 18px;
+}
+.successMessage{
+  color: green;
+}
+#submit{
+  width: 75px;
+  height: 40px;
+  text-align: center;
+  margin-left: 8px;
+}
